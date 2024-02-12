@@ -1,0 +1,101 @@
+.header {
+    background-color: rgb(72, 72, 218);
+    color: white;
+    padding: 20px ;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    flex-grow: 1;
+    
+}
+
+.link-box{
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.link-box a{
+    display: block;
+    padding: 10px 10px;
+    background-color: rgb(235, 226, 226);
+    color: black;
+    text-decoration: none;
+    border: 3px;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(160, 150, 150, 0.1);
+}
+
+
+.right-section {    
+    margin: 0 5px;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: white;
+}
+
+.right-section a:hover{
+    text-decoration: underline;
+    
+}
+
+.main-body{
+    /* padding: 10px 10px; */
+    color: white;
+    margin-top: 40px;
+    color: white;
+    background: linear-gradient(to right,rgb(79,70,70),rgb(27, 24, 24));
+    background-color: rgb(79, 70, 70);   
+    padding: 20px 100px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid white;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(73, 70, 70, 0.5);
+    line-height: 29px;
+}
+.links{
+    display:inline-block;
+    margin-right:4px;
+    padding: 10px 10px;
+
+}
+
+.links a{
+    display: block;
+    color: white;
+    background-color: rgb(55, 49, 49);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+
+}
+
+.von {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.von a{
+    display: block;
+    margin-right: 15px;
+    color: rgb(83, 83, 230);
+}
+
+
+
+
+
+
+
+

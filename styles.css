@@ -1,0 +1,59 @@
+.modul-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border:  white solid 5px;
+}
+
+.zeus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zeus > div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bolds-container{
+    display:flex;
+    gap: 10px;
+    margin-right: 90px;
+}
+
+.bolds{
+    font-weight: bold;
+    gap: 10px;
+}
+
+.other-text {
+    font-weight: 500; 
+}
+
+.links{
+    background-color: rgb(229, 146, 30);
+    padding: 18px 29px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+.learn{
+    margin-top: -50px;
+    margin-left: 220px;
+
+}
+
+.one{
+    color: rgba(49, 49, 244, 0.899);
+}
